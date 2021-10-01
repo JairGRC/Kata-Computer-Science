@@ -7,8 +7,17 @@ Salida -> 6
 */ 
 const myArray = [3,6,1,8,2,3,6,3,2,5,6]
 
-function NumRepetido (arr){
-
+function NumRepetido (myArray){
+    let numXVeces=0,posicion=0,numYveces=0
+    for(let i=0;i<myArray.length;i++){
+        for(let j=i;j<myArray.length;j++){
+            if(arr[i]===arr[j]){
+                posicion=i
+                numVeces++
+            }
+            if()
+        }
+    }
 }
 
 /* 
